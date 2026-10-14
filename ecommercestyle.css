@@ -1,20 +1,144 @@
-nav{
-    display: flex;
-    gap: 20px;
+body{
+    margin:0px;
+    pad:0px;
 }
-.logo{
+
+
+.navbar{
     display:flex;
-    gap: 5px;
     align-items: center;
-    height: auto;
-    border: 2px solid red;
-    justify-content:baseline ;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: aliceblue;   
 
 }
-.search{
-    margin-top:  20px;
+.logo{
+   gap: 15px;  
+   align-content: center;
+
 }
-.search input{
-    width: 1000px;
-    padding: 10px;
+.logo span{
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+}
+.logo a{
+    font: size 25px;
+    font-weight: 900px;
+    letter-spacing: -1px;
+    text-decoration: none;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border:2px solid rgb(219, 219, 219 );
+    padding: 6px;
+    border-radius: 25px;
+    width: 300px;
+}
+.searchbar input{
+    background-color: aliceblue;
+    border: none;
+}
+.searchbar span{
+    font-size: 25px;
+}
+ .cart{
+    font-size: 25px;
+    display: flex;
+    gap:15px;
+ }  
+ .hero{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    margin: 0px 30px;
+    border-radius: 5px 20px 20px 5px;
+    position: relative;
+     height:300px;
+ }
+ .heroing{
+   
+    border-radius: 0px 20px 20px 0px;
+ }
+ .herosent{
+    margin:30px;
+
+ }
+ .img2{
+    color: white;
+    background-color: black;
+ }
+ .welcomemsg{
+    
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 75px;
+    width: 120px;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 25px;
+    z-index: 10;
+    padding: 10px 10px;
+    
+ }
+.divi3{
+display: flex;
+align-items: center;
+font-size: 15px;
+gap: 10px;
+
+ }
+ .divi4{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap: 10px;
+ margin-top: 10px;
+}
+.return{
+    font-size: 10px;
+    font-weight: 100;
+
+}
+.return2{
+    font-size: 10px;
+    font-weight: 100;
+}
+.category{
+    margin:30px 30px 0px 30px;
+    display: grid;
+    grid-column: 3;
+    grid-auto-flow: column;
+    gap: 50px;
+    justify-content: center;
+    padding: 30px;
+}
+.category-content{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.category-content div{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+overflow: hidden;
+}
+.category-content img{
+    width:100px;
+    height: 100px;
+}
+.category-content img:hover{
+    transform: scale(1.1);
+}
+.category-content span:hover{
+    color:blueviolet;
+
+}
+.category-content div:hover{
+    border: 2px solid black;
 }
